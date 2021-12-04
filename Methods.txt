@@ -1,0 +1,21 @@
+
+package simplilearnprojects;
+
+public class AddMethod {
+   
+    public int addNumbers(int a, int b){
+        int sum = a+b;
+        return sum;
+        
+    }
+    public static void main(String[] args) {   
+    AddMethod obj = new AddMethod();
+    //Here i am calling a method 
+    int ans = obj.addNumbers(10, 30);
+        System.out.println("Addition is "+ ans);
+        
+    }
+
+    }
+    
+
